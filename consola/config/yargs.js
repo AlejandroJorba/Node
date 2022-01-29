@@ -17,12 +17,12 @@ const argv = require('yargs')
     .option('h',{
         alias: 'hasta',
         type: 'number',
-        description: 'Elige hasta donde va a llegar la tabla'
+        description: 'Elige hasta donde va a llegar la tabla'.cyan
     })
     .option('a', {
         alias: 'ahegao',
         type: 'boolean',
-        description: 'Muestra un ahegao :p'
+        description: 'Muestra un ahegao :p'.rainbow
     })
     .check((argv,options)=>{
         if(isNaN(argv.b) || isNaN(argv.h)){
