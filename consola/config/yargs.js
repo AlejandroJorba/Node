@@ -1,5 +1,3 @@
-const { type } = require('os');
-
 require('colors');
 const argv = require('yargs')
     .option('b',{
